@@ -65,7 +65,7 @@ export async function POST(request: Request): Promise<NextResponse> {
 
     await resend.emails.send({
       from: "Rauf Dent <onboarding@resend.dev>",
-      to: "info@raufalkandis.com",
+      to: "alkanrauf6608@gmail.com",
       subject: "Yeni Hızlı Randevu Talebi",
       html: `
         <div style="font-family: Arial, sans-serif; color: #0f172a;">

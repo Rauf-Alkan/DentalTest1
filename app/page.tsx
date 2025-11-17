@@ -24,6 +24,7 @@ const Home = () => {
         <Testimonials />
         <Team />
         <Contact />
+        <div className="mx-auto mt-10 w-full max-w-6xl border-t border-slate-200" />
         <Footer />
       </main>
     </>

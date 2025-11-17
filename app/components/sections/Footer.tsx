@@ -92,7 +92,12 @@ const Footer = () => {
                     d="M8.5 10h3"
                   />
                 </svg>
-                +90 555 555 55 55
+                <a
+                  href="tel:+905555555555"
+                  className="transition hover:text-[#384B70]"
+                >
+                  +90 555 555 55 55
+                </a>
               </li>
             </ul>
           </div>

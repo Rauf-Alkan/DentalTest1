@@ -157,7 +157,12 @@ const FastAppointment = () => {
           </p>
           <div className="rounded-3xl border border-slate-100/70 bg-white/80 p-6 shadow-[0_20px_60px_rgba(15,23,42,0.08)] backdrop-blur">
             <p className="text-sm uppercase tracking-wider text-slate-500">Yardım mı gerekiyor?</p>
-            <p className="mt-2 text-3xl font-semibold text-slate-900">+90 545 555 50 50</p>
+            <a
+              href="tel:+905455555050"
+              className="mt-2 inline-flex text-3xl font-semibold text-slate-900 transition hover:text-[#384B70]"
+            >
+              +90 545 555 50 50
+            </a>
             <p className="mt-1 text-sm text-slate-500">Hafta içi 09:00 – 20:00 arası yanıt veriyoruz.</p>
           </div>
         </div>
